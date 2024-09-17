@@ -4,7 +4,7 @@
 
 A mod for the TI-84 Plus Silver Edition & TI-84 Plus C Silver Edition calculators to give them internet access and add other features, like test mode breakout and camera support
 
-![built pcb](./TI-32.bak/pcb/built.png)
+![built pcb](./TI-32.Origin/pcb/built.png)
 
 ## Features to be Added
 
