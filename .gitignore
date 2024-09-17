@@ -16,3 +16,8 @@ gpt\.png
 !/test-images/*
 /cache/
 !blank.bmp
+*.lck
+*/production/*
+*/dfm/*
+*~
+*/cheating-calc-backups/*
