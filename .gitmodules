@@ -1,0 +1,3 @@
+[submodule "TI-32.Origin"]
+	path = TI-32.Origin
+	url = https://github.com/chromalock/TI-32
