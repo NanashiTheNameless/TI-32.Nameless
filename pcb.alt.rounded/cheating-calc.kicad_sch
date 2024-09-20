@@ -2957,7 +2957,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "XIAO-ESP32-S3-SMD"
+		(property "Value" "XIAO-ESP32-C6-SMD"
 			(at 183.8041 113.03 0)
 			(effects
 				(font
