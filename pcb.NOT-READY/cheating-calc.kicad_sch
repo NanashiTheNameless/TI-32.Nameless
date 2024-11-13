@@ -489,6 +489,130 @@
 				)
 			)
 		)
+		(symbol "easyeda2kicad:AP7215-33YG-13"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP7215-33YG-13"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_Diodes-Incorporated-AP7215-33YG-13_C460367.html"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C460367"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP7215-33YG-13_0_1"
+				(rectangle
+					(start -7.62 2.54)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "VROUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "easyeda2kicad:CC0603KRX7R9BB104"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2233,177 +2357,6 @@
 				)
 			)
 		)
-		(symbol "easyeda2kicad:TLV75533PDBVR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TLV75533PDBVR"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_Texas-Instruments-TI-TLV75533PDBVR_C404027.html"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C404027"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV75533PDBVR_0_1"
-				(rectangle
-					(start -6.35 5.08)
-					(end 6.35 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -5.08 3.81)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -8.89 -2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 -2.54 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "easyeda2kicad:TLV75533PDQNR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3120,12 +3073,6 @@
 		)
 	)
 	(junction
-		(at 184.15 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02a90e1d-1932-4f40-80ad-5e05fb304063")
-	)
-	(junction
 		(at 133.35 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3222,12 +3169,6 @@
 		(uuid "6196b7e2-6636-4aef-bae4-0a630c577da2")
 	)
 	(junction
-		(at 97.79 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66b3b4f0-f827-4fc1-8f6f-4cf4c3efb726")
-	)
-	(junction
 		(at 138.43 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3312,7 +3253,7 @@
 		(uuid "d52aff10-78af-4874-a0de-4783e1c77d90")
 	)
 	(junction
-		(at 101.6 74.93)
+		(at 100.33 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbebe62d-ad4c-477b-a8b5-5b4511b2c226")
@@ -3380,10 +3321,6 @@
 		(uuid "9c80c4d3-149b-4755-a344-1d6190a6aa52")
 	)
 	(no_connect
-		(at 124.46 74.93)
-		(uuid "b7365601-e432-42fc-938e-307a1a3f4a50")
-	)
-	(no_connect
 		(at 184.15 93.98)
 		(uuid "b95a9c43-46c8-4c8c-9601-96e7291fb308")
 	)
@@ -3423,6 +3360,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 53.34) (xy 184.15 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08458535-0d57-4a78-9e6f-27adc636b049")
+	)
+	(wire
+		(pts
 			(xy 143.51 137.16) (xy 144.78 137.16)
 		)
 		(stroke
@@ -3453,23 +3400,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 69.85) (xy 128.27 69.85)
+			(xy 127 69.85) (xy 128.27 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "11cf1bd1-8aaa-4eda-9d88-f44b6ea00bb6")
-	)
-	(wire
-		(pts
-			(xy 106.68 69.85) (xy 97.79 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19de703f-b844-411e-9d32-68e588882ec6")
 	)
 	(wire
 		(pts
@@ -3483,7 +3420,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 57.15) (xy 182.88 57.15)
+			(xy 181.61 59.69) (xy 182.88 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3583,6 +3520,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 46.99) (xy 184.15 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f46c44f-8488-49c1-a5f7-30982e18c164")
+	)
+	(wire
+		(pts
 			(xy 207.01 73.66) (xy 207.01 76.2)
 		)
 		(stroke
@@ -3643,7 +3590,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 52.07) (xy 184.15 52.07)
+			(xy 182.88 53.34) (xy 184.15 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3653,7 +3600,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 50.8) (xy 182.88 50.8)
+			(xy 181.61 52.07) (xy 182.88 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3700,16 +3647,6 @@
 			(type default)
 		)
 		(uuid "58697e7c-606f-4e7c-ae57-627e884cff62")
-	)
-	(wire
-		(pts
-			(xy 184.15 53.34) (xy 184.15 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bf0297d-1c68-4e1c-9ec7-a0b33297c924")
 	)
 	(wire
 		(pts
@@ -3853,7 +3790,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 74.93) (xy 106.68 74.93)
+			(xy 100.33 69.85) (xy 101.6 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3953,7 +3890,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 69.85) (xy 129.54 69.85)
+			(xy 128.27 69.85) (xy 132.08 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4003,7 +3940,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 50.8) (xy 182.88 52.07)
+			(xy 182.88 52.07) (xy 182.88 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4033,23 +3970,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 74.93) (xy 101.6 74.93)
+			(xy 96.52 69.85) (xy 100.33 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a48d1e8e-2c6f-4cad-b1d4-bb5bca726749")
-	)
-	(wire
-		(pts
-			(xy 184.15 52.07) (xy 184.15 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa743fd4-2150-404d-9a06-a1785613a288")
 	)
 	(wire
 		(pts
@@ -4113,7 +4040,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 85.09) (xy 101.6 83.82)
+			(xy 100.33 80.01) (xy 100.33 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4163,7 +4090,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 101.6 74.93)
+			(xy 100.33 71.12) (xy 100.33 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4190,16 +4117,6 @@
 			(type default)
 		)
 		(uuid "d002df1a-4f28-402a-8c18-d50ed0f12c91")
-	)
-	(wire
-		(pts
-			(xy 97.79 69.85) (xy 97.79 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d029d6d3-b555-4335-bb54-03c3515eced9")
 	)
 	(wire
 		(pts
@@ -4253,16 +4170,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 53.34) (xy 184.15 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e08146e1-37e6-417d-99a6-20731b916b2e")
-	)
-	(wire
-		(pts
 			(xy 161.29 71.12) (xy 161.29 73.66)
 		)
 		(stroke
@@ -4290,16 +4197,6 @@
 			(type default)
 		)
 		(uuid "eb33d5a3-196e-4b0e-beb7-2c36c3f98fb4")
-	)
-	(wire
-		(pts
-			(xy 97.79 72.39) (xy 97.79 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebb6993f-f616-44d6-a7ef-282e5d372063")
 	)
 	(wire
 		(pts
@@ -4343,7 +4240,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 57.15) (xy 182.88 58.42)
+			(xy 182.88 59.69) (xy 182.88 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4650,7 +4547,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 101.6 85.09 0)
+		(at 100.33 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4658,7 +4555,7 @@
 		(dnp no)
 		(uuid "0a269146-af12-4690-96af-3dd925c934f3")
 		(property "Reference" "#PWR02"
-			(at 101.6 91.44 0)
+			(at 100.33 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,7 +4564,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 88.9 90)
+			(at 100.33 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,7 +4573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 85.09 0)
+			(at 100.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,7 +4582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 85.09 0)
+			(at 100.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4694,7 +4591,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 85.09 0)
+			(at 100.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4908,92 +4805,6 @@
 			(project "cheating-calc"
 				(path "/dc32c202-8f02-44ca-a16c-c11d7f3acb8d"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:TLV75533PDBVR")
-		(at 115.57 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12defd09-385c-4db1-8c73-09881d7911f7")
-		(property "Reference" "U2"
-			(at 115.57 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV75533PDBVR"
-			(at 115.57 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
-			(at 115.57 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_Texas-Instruments-TI-TLV75533PDBVR_C404027.html"
-			(at 115.57 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C404027"
-			(at 115.57 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7068acd1-e8b2-4d80-bb5c-5f5781ef2beb")
-		)
-		(pin "2"
-			(uuid "75ba5114-c292-4a41-943a-8c2584b191f4")
-		)
-		(pin "5"
-			(uuid "3334ff0b-60f1-4921-a876-e5b580f53b2b")
-		)
-		(pin "4"
-			(uuid "bf594428-50f3-4636-a674-dbfb7399e8e1")
-		)
-		(pin "3"
-			(uuid "3fae9137-b1c4-4486-88f8-2b2c3ff18ae4")
-		)
-		(instances
-			(project ""
-				(path "/dc32c202-8f02-44ca-a16c-c11d7f3acb8d"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5359,7 +5170,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 106.68 72.39 270)
+		(at 114.3 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5367,7 +5178,7 @@
 		(dnp no)
 		(uuid "24f8cc9e-31a8-46c6-bdea-a81a83c39b2e")
 		(property "Reference" "#PWR03"
-			(at 100.33 72.39 0)
+			(at 114.3 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5376,7 +5187,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 72.39 90)
+			(at 114.3 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,7 +5196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 72.39 0)
+			(at 114.3 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +5205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 72.39 0)
+			(at 114.3 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,7 +5214,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 72.39 0)
+			(at 114.3 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,6 +5506,72 @@
 			(project "cheating-calc"
 				(path "/dc32c202-8f02-44ca-a16c-c11d7f3acb8d"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 181.61 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "440a03b1-2382-48d7-a930-f99fade3bd69")
+		(property "Reference" "#PWR023"
+			(at 185.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 178.816 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "982bcd39-6ee8-45b4-8502-d7a171010c60")
+		)
+		(instances
+			(project "cheating-calc"
+				(path "/dc32c202-8f02-44ca-a16c-c11d7f3acb8d"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6060,7 +5937,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 50.8 270)
+		(at 181.61 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6068,7 +5945,7 @@
 		(dnp no)
 		(uuid "5af34c5b-d8c6-4786-b6c3-6758bfdb389b")
 		(property "Reference" "#PWR032"
-			(at 175.26 50.8 0)
+			(at 175.26 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6077,7 +5954,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 183.642 53.848 90)
+			(at 178.816 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6086,7 +5963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 50.8 0)
+			(at 181.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6095,7 +5972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 50.8 0)
+			(at 181.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6104,7 +5981,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 181.61 50.8 0)
+			(at 181.61 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,7 +6307,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 129.54 69.85 270)
+		(at 132.08 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6438,7 +6315,7 @@
 		(dnp no)
 		(uuid "754a6427-128d-4767-9188-38bb5bc22c95")
 		(property "Reference" "#PWR011"
-			(at 125.73 69.85 0)
+			(at 128.27 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,7 +6324,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 133.35 69.85 90)
+			(at 135.89 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6456,7 +6333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 69.85 0)
+			(at 132.08 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6465,7 +6342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 69.85 0)
+			(at 132.08 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,7 +6351,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 69.85 0)
+			(at 132.08 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7231,76 +7108,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 181.61 57.15 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "acb2fc20-392f-47fc-898d-f3cb46ecf19e")
-		(property "Reference" "#PWR031"
-			(at 185.42 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 172.72 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28f7c234-04c4-424b-a875-d517c8962538")
-		)
-		(instances
-			(project "cheating-calc"
-				(path "/dc32c202-8f02-44ca-a16c-c11d7f3acb8d"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:CL05A105KP5NNNC")
-		(at 101.6 80.01 90)
+		(at 100.33 74.93 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7309,7 +7118,7 @@
 		(dnp no)
 		(uuid "b442f14b-aea3-48d1-ba77-615d33654f79")
 		(property "Reference" "C1"
-			(at 97.79 78.7399 90)
+			(at 96.52 73.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7318,7 +7127,7 @@
 			)
 		)
 		(property "Value" "CL05A105KP5NNNC"
-			(at 97.79 81.2799 90)
+			(at 96.52 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7327,7 +7136,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:C0402"
-			(at 109.22 80.01 0)
+			(at 107.95 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,7 +7145,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05A105KP5NNNC_1uF-105-10-10V_C14445.html"
-			(at 111.76 80.01 0)
+			(at 110.49 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7345,7 +7154,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 80.01 0)
+			(at 100.33 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7354,7 +7163,7 @@
 			)
 		)
 		(property "LCSC Part" "C14445"
-			(at 114.3 80.01 0)
+			(at 113.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7438,6 +7247,86 @@
 			(project "cheating-calc"
 				(path "/dc32c202-8f02-44ca-a16c-c11d7f3acb8d"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:AP7215-33YG-13")
+		(at 114.3 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c69ffbcf-d1ed-4caf-95f3-602eea53045e")
+		(property "Reference" "U2"
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP7215-33YG-13"
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOT-89-3_L4.5-W2.5-P1.50-LS4.2-BR"
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_Diodes-Incorporated-AP7215-33YG-13_C460367.html"
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C460367"
+			(at 114.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bf38942-f3e5-48d1-86b4-642f04435a29")
+		)
+		(pin "3"
+			(uuid "b87a41d5-cbf0-499d-b9ac-2fba6fdaa9eb")
+		)
+		(pin "2"
+			(uuid "34f6af37-cf0b-4ffc-adfd-c47c9f466cba")
+		)
+		(instances
+			(project ""
+				(path "/dc32c202-8f02-44ca-a16c-c11d7f3acb8d"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7722,7 +7611,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 97.79 72.39 90)
+		(at 96.52 69.85 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7731,7 +7620,7 @@
 		(dnp no)
 		(uuid "dc7e1ffc-73e0-4a9e-853c-d57f68a8306e")
 		(property "Reference" "#PWR01"
-			(at 101.6 72.39 0)
+			(at 100.33 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7740,7 +7629,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 93.98 72.39 90)
+			(at 92.71 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7749,7 +7638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 72.39 0)
+			(at 96.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7758,7 +7647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 72.39 0)
+			(at 96.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7767,7 +7656,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 72.39 0)
+			(at 96.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
