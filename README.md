@@ -1,6 +1,6 @@
 # TI-32
 
-## NamelessNanashi version with erroring towards my personal preferences, no warranty on any kind, not yet tested, DO NOT EXPECT TO WORK PERFECTLY YET
+## NamelessNanashi version with erroring towards my personal preferences, no warranty of any kind, not yet tested, DO NOT EXPECT TO WORK PERFECTLY YET
 
 A mod for the TI-84 Plus Silver Edition & TI-84 Plus C Silver Edition calculators to give them internet access and add other features, like test mode breakout and camera support
 
