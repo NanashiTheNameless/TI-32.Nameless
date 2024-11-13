@@ -899,7 +899,7 @@
 				)
 			)
 		)
-		(symbol "easyeda2kicad:CL21B105KBFNNNE"
+		(symbol "easyeda2kicad:CL21B105KPFNNNE"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -911,7 +911,7 @@
 					)
 				)
 			)
-			(property "Value" "CL21B105KBFNNNE"
+			(property "Value" "CL21B105KPFNNNE"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -928,7 +928,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B105KBFNNNE_1uF-105-10-50V_C28323.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B105KPFNNNE_1uF-105-10-10V_C107367.html"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -946,7 +946,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C28323"
+			(property "LCSC Part" "C107367"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -955,7 +955,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CL21B105KBFNNNE_0_1"
+			(symbol "CL21B105KPFNNNE_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy -0.51 0)
@@ -5787,82 +5787,6 @@
 		)
 	)
 	(symbol
-		(lib_id "easyeda2kicad:CL21B105KBFNNNE")
-		(at 100.33 74.93 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4952b8b0-6a9f-49d8-8c9e-2bba01dfe0bf")
-		(property "Reference" "C1"
-			(at 96.774 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CL21B105KBFNNNE"
-			(at 104.14 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0805"
-			(at 92.71 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B105KBFNNNE_1uF-105-10-50V_C28323.html"
-			(at 90.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C28323"
-			(at 87.63 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fcd90910-0b75-4252-9061-349dcc65e718")
-		)
-		(pin "1"
-			(uuid "b1773adf-ecfa-4cbc-8f13-dc72d5fde6a3")
-		)
-		(instances
-			(project "cheating-calc"
-				(path "/dc32c202-8f02-44ca-a16c-c11d7f3acb8d"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "easyeda2kicad:CL05A105KP5NNNC")
 		(at 420.37 85.09 270)
 		(unit 1)
@@ -6512,6 +6436,84 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:CL21B105KPFNNNE")
+		(at 128.27 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7624a46e-3241-43d7-8e0c-1b755458e58e")
+		(property "Reference" "C2"
+			(at 123.19 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CL21B105KPFNNNE"
+			(at 130.302 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0805"
+			(at 120.65 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B105KPFNNNE_1uF-105-10-10V_C107367.html"
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C107367"
+			(at 115.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e440c93-4ec4-439f-9adb-38553fa667ed")
+		)
+		(pin "2"
+			(uuid "ba46cabe-e40a-4bc8-9d34-ee75d5c4ca26")
+		)
+		(instances
+			(project "cheating-calc"
+				(path "/dc32c202-8f02-44ca-a16c-c11d7f3acb8d"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:0603WAF1002T5E")
 		(at 177.8 71.12 0)
 		(unit 1)
@@ -6583,6 +6585,85 @@
 			(project ""
 				(path "/dc32c202-8f02-44ca-a16c-c11d7f3acb8d"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:CL21B105KPFNNNE")
+		(at 100.33 74.93 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7cac99a2-6979-40e0-b015-e41986bb7a7a")
+		(property "Reference" "C1"
+			(at 105.41 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CL21B105KPFNNNE"
+			(at 98.298 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C0805"
+			(at 107.95 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B105KPFNNNE_1uF-105-10-10V_C107367.html"
+			(at 110.49 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C107367"
+			(at 113.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ad14409-e006-4fd7-a309-d3131e297771")
+		)
+		(pin "2"
+			(uuid "14a09a8c-8f2a-43e5-b336-9c075ccfffd9")
+		)
+		(instances
+			(project ""
+				(path "/dc32c202-8f02-44ca-a16c-c11d7f3acb8d"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -8121,82 +8202,6 @@
 			(project "cheating-calc"
 				(path "/dc32c202-8f02-44ca-a16c-c11d7f3acb8d"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "easyeda2kicad:CL21B105KBFNNNE")
-		(at 128.27 74.93 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea9c7692-c887-4462-b09c-b778594c2f09")
-		(property "Reference" "C2"
-			(at 124.714 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CL21B105KBFNNNE"
-			(at 132.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:C0805"
-			(at 120.65 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B105KBFNNNE_1uF-105-10-50V_C28323.html"
-			(at 118.11 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 128.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C28323"
-			(at 115.57 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "747594ac-83e6-4fd6-a00a-11cc0773fd7d")
-		)
-		(pin "1"
-			(uuid "5c8196fa-d191-412d-b6fc-21135a8f846c")
-		)
-		(instances
-			(project "cheating-calc"
-				(path "/dc32c202-8f02-44ca-a16c-c11d7f3acb8d"
-					(reference "C2")
 					(unit 1)
 				)
 			)
