@@ -11,7 +11,7 @@
    - Fill in the required information (such as WiFi credentials, Hardware Pins, etc.) as specified by your project.
 
 3. **Obtain Server IP Address**:
-   - Refer to the [Server Setup](#Running the Server) section to get the IP address of your server.
+   - Refer to the [Server Setup](#3-running-the-server) section to get the IP address of your server.
    - Update the IP address in your `secrets.h` to match the server IP.
 
 4. **Flash the ESP32**:
