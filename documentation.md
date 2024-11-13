@@ -1,6 +1,4 @@
 
----
-
 # ESP32 Code Deployment and Server Setup Documentation
 
 ## 1. Downloading Code to the ESP32
@@ -13,7 +11,7 @@
    - Fill in the required information (such as WiFi credentials, Hardware Pins, etc.) as specified by your project.
 
 3. **Obtain Server IP Address**:
-   - Refer to the [Server Setup](#how-to-run-the-server) section to get the IP address of your server.
+   - Refer to the [Server Setup](#Running the Server) section to get the IP address of your server.
    - Update the IP address in your `secrets.h` to match the server IP.
 
 4. **Flash the ESP32**:
@@ -21,10 +19,10 @@
 
 ## 2. Wiring Instructions
 
-1. **Add Wiring Picture**:  
+1. **Add Wiring Picture**:
    _(Insert image here)_
 
-2. **Wiring Configuration**:  
+2. **Wiring Configuration**:
    - Wiring configurations may vary depending on the ESP32 model you're using.
    - Refer to your specific hardware's datasheet for pin configurations.
 
@@ -36,12 +34,14 @@
 2. **Install Server Dependencies**:
    - Navigate to the `server` directory in your terminal or command prompt.
    - Run the following command to install the necessary dependencies:
+
      ```bash
      npm install
      ```
 
 3. **Start the Server**:
    - To run the server, execute the following command:
+
      ```bash
      node index.mjs
      ```
@@ -50,19 +50,21 @@
 
 To obtain the server's IP address (required for configuration in `secrets.h`):
 
-### On Windows:
+### On Windows
 
 1. Open the Command Prompt by searching for "cmd" in the start menu or pressing `Win + R` and typing `cmd`.
 2. Run the following command:
+
    ```bash
    ipconfig
    ```
+
 3. Locate your specific network adapter (e.g., Wi-Fi or Ethernet).
 4. Use the IPv4 address associated with that network adapter. This will be the server's IP address.
 
 ---
 
-### Additional Notes:
+### Additional Notes
+
 - Ensure your ESP32 and server are connected to the same network.
 - If you encounter issues with the server or ESP32 connectivity, verify firewall settings and network configurations.
-
