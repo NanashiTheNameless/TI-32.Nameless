@@ -438,9 +438,9 @@
 		)
 		(uuid "ba66830c-6c46-4646-88fd-0085b57068bc")
 	)
-	(text "Converts https://www.tindie.com/products/snakeye/usb-programmer-for-esp8266esp32/ to pad format used by board"
+	(text "Converts ESP01 to pad format used by board"
 		(exclude_from_sim no)
-		(at 119.38 84.328 0)
+		(at 118.11 88.138 0)
 		(effects
 			(font
 				(size 1.27 1.27)

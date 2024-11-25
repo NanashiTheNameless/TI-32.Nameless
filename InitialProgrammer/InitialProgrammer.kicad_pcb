@@ -613,7 +613,7 @@
 		)
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TESTPOINT-SMD_BD2.0-D0.7.wrl"
 			(offset
-				(xyz 0 -0 2)
+				(xyz 0 -0 -2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -887,7 +887,7 @@
 		)
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TESTPOINT-SMD_BD2.0-D0.7.wrl"
 			(offset
-				(xyz 0 -0 2)
+				(xyz 0 -0 -2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1161,7 +1161,7 @@
 		)
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TESTPOINT-SMD_BD2.0-D0.7.wrl"
 			(offset
-				(xyz 0 -0 2)
+				(xyz 0 -0 -2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1435,7 +1435,7 @@
 		)
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TESTPOINT-SMD_BD2.0-D0.7.wrl"
 			(offset
-				(xyz 0 -0 2)
+				(xyz 0 -0 -2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1709,7 +1709,7 @@
 		)
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TESTPOINT-SMD_BD2.0-D0.7.wrl"
 			(offset
-				(xyz 0 -0 2)
+				(xyz 0 -0 -2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1983,7 +1983,7 @@
 		)
 		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TESTPOINT-SMD_BD2.0-D0.7.wrl"
 			(offset
-				(xyz 0 -0 2)
+				(xyz 0 -0 -2)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1992,6 +1992,50 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_circle
+		(center 154.2 88.099999)
+		(end 154.200001 88.099999)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "8ef70438-8b76-4d5c-bdee-eb09938ec986")
+	)
+	(gr_circle
+		(center 138.6 101.1)
+		(end 138.600001 101.1)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "f3ae402c-85ce-4832-bb19-8a4c37940e31")
+	)
+	(gr_circle
+		(center 154.2 88.099999)
+		(end 154.2 88.099999)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "becee6c7-cde8-4f94-9606-9d572365eeac")
+	)
+	(gr_circle
+		(center 138.6 101.1)
+		(end 138.6 101.1)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "debc9dd4-42b5-4ccf-a81e-f5e4fb71ff0f")
 	)
 	(gr_rect
 		(start 132.5 84.1)
@@ -2070,8 +2114,8 @@
 			)
 		)
 	)
-	(gr_text "Converts https://www.tindie.com/products/snakeye/usb-programmer-for-esp8266esp32/ to pad format used by board."
-		(at 99.5 110.1 0)
+	(gr_text "Converts ESP01 to pad format used by board."
+		(at 126.9 107.6 0)
 		(layer "Cmts.User")
 		(uuid "2c35ecc0-a52c-4ab6-88db-7a55fb6120e3")
 		(effects
