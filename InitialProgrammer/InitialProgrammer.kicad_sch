@@ -331,16 +331,16 @@
 		)
 	)
 	(no_connect
-		(at 153.67 105.41)
+		(at 114.3 101.6)
 		(uuid "230a0357-8f4e-47b3-90e3-043f6ee37bfb")
 	)
 	(no_connect
-		(at 163.83 107.95)
+		(at 124.46 104.14)
 		(uuid "93c94969-c608-4238-b748-ecf289982f11")
 	)
 	(wire
 		(pts
-			(xy 166.37 102.87) (xy 163.83 102.87)
+			(xy 127 99.06) (xy 124.46 99.06)
 		)
 		(stroke
 			(width 0)
@@ -350,7 +350,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 110.49) (xy 163.83 110.49)
+			(xy 127 106.68) (xy 124.46 106.68)
 		)
 		(stroke
 			(width 0)
@@ -360,7 +360,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 110.49) (xy 153.67 110.49)
+			(xy 111.76 106.68) (xy 114.3 106.68)
 		)
 		(stroke
 			(width 0)
@@ -370,7 +370,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 105.41) (xy 163.83 105.41)
+			(xy 127 101.6) (xy 124.46 101.6)
 		)
 		(stroke
 			(width 0)
@@ -380,7 +380,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 114.3) (xy 151.13 110.49)
+			(xy 111.76 110.49) (xy 111.76 106.68)
 		)
 		(stroke
 			(width 0)
@@ -390,7 +390,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 107.95) (xy 153.67 107.95)
+			(xy 111.76 104.14) (xy 114.3 104.14)
 		)
 		(stroke
 			(width 0)
@@ -400,7 +400,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 99.06) (xy 151.13 102.87)
+			(xy 111.76 95.25) (xy 111.76 99.06)
 		)
 		(stroke
 			(width 0)
@@ -410,7 +410,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 114.3) (xy 166.37 110.49)
+			(xy 127 110.49) (xy 127 106.68)
 		)
 		(stroke
 			(width 0)
@@ -420,7 +420,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 99.06) (xy 166.37 102.87)
+			(xy 127 95.25) (xy 127 99.06)
 		)
 		(stroke
 			(width 0)
@@ -430,7 +430,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 102.87) (xy 153.67 102.87)
+			(xy 111.76 99.06) (xy 114.3 99.06)
 		)
 		(stroke
 			(width 0)
@@ -438,9 +438,19 @@
 		)
 		(uuid "ba66830c-6c46-4646-88fd-0085b57068bc")
 	)
+	(text "Converts https://www.tindie.com/products/snakeye/usb-programmer-for-esp8266esp32/ to pad format used by board"
+		(exclude_from_sim no)
+		(at 119.38 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "431ca304-ae44-4e8e-b249-fd9395876f46")
+	)
 	(symbol
 		(lib_id "easyeda2kicad:YZ29115060P-02")
-		(at 147.32 114.3 0)
+		(at 107.95 110.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -450,7 +460,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b6da74f-8ff3-43e2-aefd-7036809d6793")
 		(property "Reference" "CN3"
-			(at 142.24 113.0299 0)
+			(at 102.87 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -459,7 +469,7 @@
 			)
 		)
 		(property "Value" "YZ29115060P-02"
-			(at 142.24 115.5699 0)
+			(at 102.87 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -468,7 +478,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:TESTPOINT-SMD_BD2.0-D0.7"
-			(at 147.32 121.92 0)
+			(at 107.95 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -477,7 +487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 114.3 0)
+			(at 107.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -486,7 +496,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 114.3 0)
+			(at 107.95 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -495,7 +505,7 @@
 			)
 		)
 		(property "LCSC Part" "C5157350"
-			(at 147.32 124.46 0)
+			(at 107.95 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -517,7 +527,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:YZ29115060P-02")
-		(at 170.18 114.3 0)
+		(at 130.81 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -525,7 +535,7 @@
 		(dnp no)
 		(uuid "53181c60-c404-4302-ba55-d98de641c0b6")
 		(property "Reference" "CN1"
-			(at 175.26 113.0299 0)
+			(at 135.89 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -534,7 +544,7 @@
 			)
 		)
 		(property "Value" "YZ29115060P-02"
-			(at 175.26 115.5699 0)
+			(at 135.89 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -543,7 +553,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:TESTPOINT-SMD_BD2.0-D0.7"
-			(at 170.18 121.92 0)
+			(at 130.81 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -552,7 +562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 114.3 0)
+			(at 130.81 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -561,7 +571,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 114.3 0)
+			(at 130.81 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -570,7 +580,7 @@
 			)
 		)
 		(property "LCSC Part" "C5157350"
-			(at 170.18 124.46 0)
+			(at 130.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,7 +602,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:YZ29115060P-02")
-		(at 147.32 99.06 0)
+		(at 107.95 95.25 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -601,7 +611,7 @@
 		(dnp no)
 		(uuid "5bb593ba-1728-4a6a-bcc8-ec3b088ee190")
 		(property "Reference" "CN2"
-			(at 142.24 97.7899 0)
+			(at 102.87 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -610,7 +620,7 @@
 			)
 		)
 		(property "Value" "YZ29115060P-02"
-			(at 142.24 100.3299 0)
+			(at 102.87 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -619,7 +629,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:TESTPOINT-SMD_BD2.0-D0.7"
-			(at 147.32 106.68 0)
+			(at 107.95 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -628,7 +638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 99.06 0)
+			(at 107.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -637,7 +647,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 99.06 0)
+			(at 107.95 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -646,7 +656,7 @@
 			)
 		)
 		(property "LCSC Part" "C5157350"
-			(at 147.32 109.22 0)
+			(at 107.95 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -668,7 +678,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:YZ29115060P-02")
-		(at 170.18 99.06 0)
+		(at 130.81 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -677,7 +687,7 @@
 		(fields_autoplaced yes)
 		(uuid "6db27cc1-9576-499a-a021-4c9c7eff96a4")
 		(property "Reference" "CN4"
-			(at 175.26 97.7899 0)
+			(at 135.89 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -686,7 +696,7 @@
 			)
 		)
 		(property "Value" "YZ29115060P-02"
-			(at 175.26 100.3299 0)
+			(at 135.89 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -695,7 +705,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:TESTPOINT-SMD_BD2.0-D0.7"
-			(at 170.18 106.68 0)
+			(at 130.81 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -704,7 +714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 99.06 0)
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -713,7 +723,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 99.06 0)
+			(at 130.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -722,7 +732,7 @@
 			)
 		)
 		(property "LCSC Part" "C5157350"
-			(at 170.18 109.22 0)
+			(at 130.81 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +754,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:YZ29115060P-02")
-		(at 170.18 105.41 0)
+		(at 130.81 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -753,7 +763,7 @@
 		(fields_autoplaced yes)
 		(uuid "77f9c722-f52a-45d5-afb7-690a8af9888e")
 		(property "Reference" "CN6"
-			(at 175.26 104.1399 0)
+			(at 135.89 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -762,7 +772,7 @@
 			)
 		)
 		(property "Value" "YZ29115060P-02"
-			(at 175.26 106.6799 0)
+			(at 135.89 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -771,7 +781,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:TESTPOINT-SMD_BD2.0-D0.7"
-			(at 170.18 113.03 0)
+			(at 130.81 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -780,7 +790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 105.41 0)
+			(at 130.81 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -789,7 +799,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 105.41 0)
+			(at 130.81 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -798,7 +808,7 @@
 			)
 		)
 		(property "LCSC Part" "C5157350"
-			(at 170.18 115.57 0)
+			(at 130.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -820,7 +830,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:PZ254V-12-8P")
-		(at 158.75 106.68 0)
+		(at 119.38 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -829,7 +839,7 @@
 		(fields_autoplaced yes)
 		(uuid "b37877f6-dea9-4c7c-8e0e-1a93bd995b99")
 		(property "Reference" "H1"
-			(at 158.75 95.25 0)
+			(at 119.38 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,7 +847,7 @@
 			)
 		)
 		(property "Value" "PZ254V-12-8P"
-			(at 158.75 97.79 0)
+			(at 119.38 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -845,7 +855,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:HDR-TH_8P-P2.54-V-M-R2-C4-S2.54"
-			(at 158.75 118.11 0)
+			(at 119.38 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -854,7 +864,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/New-Arrivals_XFCN-PZ254V-12-8P_C492421.html"
-			(at 158.75 120.65 0)
+			(at 119.38 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,7 +873,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 106.68 0)
+			(at 119.38 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +882,7 @@
 			)
 		)
 		(property "LCSC Part" "C492421"
-			(at 158.75 123.19 0)
+			(at 119.38 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -915,7 +925,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:YZ29115060P-02")
-		(at 147.32 107.95 0)
+		(at 107.95 104.14 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -925,7 +935,7 @@
 		(fields_autoplaced yes)
 		(uuid "ceee31db-8e3a-41e2-b2ba-ada0438eeada")
 		(property "Reference" "CN5"
-			(at 142.24 106.6799 0)
+			(at 102.87 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -934,7 +944,7 @@
 			)
 		)
 		(property "Value" "YZ29115060P-02"
-			(at 142.24 109.2199 0)
+			(at 102.87 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -943,7 +953,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:TESTPOINT-SMD_BD2.0-D0.7"
-			(at 147.32 115.57 0)
+			(at 107.95 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -952,7 +962,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 107.95 0)
+			(at 107.95 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -961,7 +971,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 107.95 0)
+			(at 107.95 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -970,7 +980,7 @@
 			)
 		)
 		(property "LCSC Part" "C5157350"
-			(at 147.32 118.11 0)
+			(at 107.95 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
