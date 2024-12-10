@@ -377,7 +377,7 @@
 			)
 			(uuid "5cd33417-2222-47cf-b473-6b8982f020be")
 		)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -634,7 +634,7 @@
 			)
 			(uuid "d29fa800-019f-497d-b00c-7fc2bab64a41")
 		)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/C0603_L1.6-W0.8-H0.8.wrl"
+		(model "${KIPRJMOD}/packages3D/C0603_L1.6-W0.8-H0.8.wrl"
 			(offset
 				(xyz 0 -0 0.4)
 			)
@@ -969,7 +969,7 @@
 			)
 			(uuid "7415119d-52c4-46d3-b865-422cd7d65fd0")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/PinHeader_1x04_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1290,7 +1290,7 @@
 			)
 			(uuid "9e93e7e8-29df-4128-a934-43ea86940e39")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/PinHeader_1x04_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1839,7 +1839,7 @@
 			)
 			(uuid "8a5fdee7-eec2-4d46-8472-32d6e91c99f0")
 		)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/C0805_L2.0-W1.3-H1.3.wrl"
+		(model "${KIPRJMOD}/packages3D/C0805_L2.0-W1.3-H1.3.wrl"
 			(offset
 				(xyz 0 0 0.5)
 			)
@@ -2052,7 +2052,7 @@
 			)
 			(uuid "cfd17b08-dbd5-4c75-b646-0730c862077d")
 		)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R0603.wrl"
+		(model "${KIPRJMOD}/packages3D/R0603.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -2265,7 +2265,7 @@
 			)
 			(uuid "48135920-7aa2-4088-895e-371e10f22f7a")
 		)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R2512_L6.3-W3.2-H0.6.wrl"
+		(model "${KIPRJMOD}/packages3D/R2512_L6.3-W3.2-H0.6.wrl"
 			(offset
 				(xyz 0.08 -0 -0)
 			)
@@ -2478,7 +2478,7 @@
 			)
 			(uuid "625d64f2-f0d7-4f73-8614-7b2c723e6eb8")
 		)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R2512_L6.3-W3.2-H0.6.wrl"
+		(model "${KIPRJMOD}/packages3D/R2512_L6.3-W3.2-H0.6.wrl"
 			(offset
 				(xyz 0.08 -0 -0)
 			)
@@ -2691,7 +2691,7 @@
 			)
 			(uuid "5ed94ff4-3be2-4f0f-8ff8-fd97651eb94a")
 		)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R2512_L6.3-W3.2-H0.6.wrl"
+		(model "${KIPRJMOD}/packages3D/R2512_L6.3-W3.2-H0.6.wrl"
 			(offset
 				(xyz 0.08 -0 -0)
 			)
@@ -2925,7 +2925,7 @@
 			)
 			(uuid "f64145cb-726a-4ea3-a611-cb93ad992244")
 		)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -3474,7 +3474,7 @@
 			)
 			(uuid "0af073c0-b595-426a-bba8-da1a76e1b9a3")
 		)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.wrl"
 			(offset
 				(xyz -0.3 -0 -0)
 			)
@@ -3687,7 +3687,7 @@
 			)
 			(uuid "209bb527-efb8-419f-9003-3aed18d68933")
 		)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R2512_L6.3-W3.2-H0.6.wrl"
+		(model "${KIPRJMOD}/packages3D/R2512_L6.3-W3.2-H0.6.wrl"
 			(offset
 				(xyz 0.08 -0 -0)
 			)
@@ -5095,7 +5095,7 @@
 			)
 			(uuid "f34e91df-0ef0-42a1-8a46-df88d5e52792")
 		)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/WIFIM-SMD_ESP32-C3-MINI-1.wrl"
+		(model "${KIPRJMOD}/packages3D/WIFIM-SMD_ESP32-C3-MINI-1.wrl"
 			(offset
 				(xyz 0 2.72 -0)
 			)
@@ -5352,7 +5352,7 @@
 			)
 			(uuid "a0bb9925-9fbb-480f-a0fb-ef5bf427fcaa")
 		)
-		(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/C0805_L2.0-W1.3-H1.3.wrl"
+		(model "${KIPRJMOD}/packages3D/C0805_L2.0-W1.3-H1.3.wrl"
 			(offset
 				(xyz 0 0 0.5)
 			)

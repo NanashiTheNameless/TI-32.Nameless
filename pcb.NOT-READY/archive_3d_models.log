@@ -1,0 +1,64 @@
+12-09 17:44:29 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 220:Plugin executed on: 'linux'
+12-09 17:44:29 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 221:Plugin executed with python version: '3.10.12 (main, Nov  6 2024, 20:22:13) [GCC 11.4.0]'
+12-09 17:44:29 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 222:KiCad build version: 8.0.7-8.0.7-0~ubuntu22.04.1
+12-09 17:44:29 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 223:Plugin version: 1.0.12
+
+12-09 17:44:29 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 228:Screen sizes: [wx.Size(1920, 1080)]
+12-09 17:44:29 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 235:Dialog size: wx.Size(213, 81)
+12-09 17:44:29 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 237:Char size: 17
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 26:Starting to archive 3D models
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: Q1
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C3
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/C0603_L1.6-W0.8-H0.8.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/C0603_L1.6-W0.8-H0.8.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J2
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J1
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 74:Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 135:Did not copy: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: JP2
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C1
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/C0805_L2.0-W1.3-H1.3.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/C0805_L2.0-W1.3-H1.3.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R5
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R0603.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R0603.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R4
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R2512_L6.3-W3.2-H0.6.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R2512_L6.3-W3.2-H0.6.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R2
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R2512_L6.3-W3.2-H0.6.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R2512_L6.3-W3.2-H0.6.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R3
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R2512_L6.3-W3.2-H0.6.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R2512_L6.3-W3.2-H0.6.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: Q2
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: JP1
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U2
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SOT-89-3_L4.3-W2.5-H1.6-LS4.1-P1.50.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R1
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R2512_L6.3-W3.2-H0.6.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R2512_L6.3-W3.2-H0.6.wrl
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U1
+12-09 17:44:30 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/WIFIM-SMD_ESP32-C3-MINI-1.wrl
+12-09 17:44:31 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/WIFIM-SMD_ESP32-C3-MINI-1.wrl
+12-09 17:44:31 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C2
+12-09 17:44:31 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/C0805_L2.0-W1.3-H1.3.wrl
+12-09 17:44:31 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/C0805_L2.0-W1.3-H1.3.wrl
+12-09 17:44:31 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP6
+12-09 17:44:31 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP5
+12-09 17:44:31 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP2
+12-09 17:44:31 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP4
+12-09 17:44:31 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP3
+12-09 17:44:31 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP1
+12-09 17:44:31 com_github_MitjaNemec_Archive3DModels.archive_3d_models 153:Did not succeed to copy 3D models!
+('J1', '${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl')
