@@ -35,7 +35,7 @@ export function programs() {
 
     const program_list = programs
       .slice(page * list_len, page * list_len + list_len)
-      .map((x, i) => (`${i}:` + x.padEnd(len, " ")).substring(0, len))
+      .map((x, i) => (`${i}:` + escape(x.padEnd(len, " "))).substring(0, len))
       .slice();
     console.log(program_list);
 
