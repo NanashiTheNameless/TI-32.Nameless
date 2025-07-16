@@ -16,7 +16,11 @@ function updateChat(f) {
 }
 
 function formatChat(n) {
-  return rooms[n]?.flatMap((x) => lodash.chunk(x, 16).map((x) => x.join("").padEnd(16, " "))) ?? [];
+  const room = rooms[n];
+  if (!Array.isArray(room)) {
+    return [];
+  }
+  return room.flatMap((x) => lodash.chunk(x, 16).map((x) => x.join("").padEnd(16, " ")));
 }
 
 const list_len = 7;
