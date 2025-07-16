@@ -8,6 +8,7 @@
     "lodash": "^4.17.21",
     "morgan": "^1.10.0",
     "openai": "^5.10.1",
-    "express-rate-limit": "^8.0.1"
+    "express-rate-limit": "^8.0.1",
+    "escape-html": "^1.0.3"
   }
 }

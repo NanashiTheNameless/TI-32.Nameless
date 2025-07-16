@@ -2,6 +2,7 @@ import express from "express";
 import path from "path";
 import fs from "fs";
 import _ from "lodash";
+import escape from "escape-html";
 import * as p8 from "../../prepare8xp.mjs";
 
 export function programs() {
@@ -61,7 +62,7 @@ export function programs() {
     }
 
     const program = programs[id].substring(0, 10).toUpperCase();
-    res.send(program);
+    res.send(escape(program));
   });
 
   router.get("/get", (req, res) => {
