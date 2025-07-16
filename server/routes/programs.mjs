@@ -2,7 +2,7 @@ import express from "express";
 import path from "path";
 import fs from "fs";
 import _ from "lodash";
-import escapeHtml from "escape-html";
+import escape from "escape-html";
 import * as p8 from "../../prepare8xp.mjs";
 
 export function programs() {
@@ -35,7 +35,7 @@ export function programs() {
 
     const program_list = programs
       .slice(page * list_len, page * list_len + list_len)
-      .map((x, i) => (`${i}:` + escapeHtml(x.padEnd(len, " "))).substring(0, len))
+      .map((x, i) => (`${i}:` + escape(x.padEnd(len, " "))).substring(0, len))
       .slice();
     console.log(program_list);
 
@@ -62,7 +62,7 @@ export function programs() {
     }
 
     const program = programs[id].substring(0, 10).toUpperCase();
-    res.send(program);
+    res.send(escape(program));
   });
 
   router.get("/get", (req, res) => {
