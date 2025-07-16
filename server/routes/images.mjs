@@ -3,6 +3,7 @@ import path from "path";
 import fs from "fs";
 import _ from "lodash";
 import rateLimit from "express-rate-limit";
+import escape from "escape-html";
 
 export function images() {
   const router = express.Router();
@@ -33,7 +34,7 @@ export function images() {
 
     const image_list = images
       .slice(page * list_len, page * list_len + list_len)
-      .map((x, i) => (`${i}:` + x.padEnd(len, " ")).substring(0, len))
+      .map((x, i) => (`${i}:` + escape(x.padEnd(len, " "))).substring(0, len))
       .slice();
     console.log(image_list);
 
