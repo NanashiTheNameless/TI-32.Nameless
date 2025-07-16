@@ -2,6 +2,7 @@ import express from "express";
 import path from "path";
 import fs from "fs";
 import _ from "lodash";
+import rateLimit from "express-rate-limit";
 
 export function images() {
   const router = express.Router();
@@ -39,7 +40,12 @@ export function images() {
     res.send(image_list.join(""));
   });
 
-  router.get("/get", (req, res) => {
+  const getLimiter = rateLimit({
+    windowMs: 15 * 60 * 1000, // 15 minutes
+    max: 100, // max 100 requests per windowMs
+  });
+
+  router.get("/get", getLimiter, (req, res) => {
     const id = req.query.id;
     if (!id || Array.isArray(id)) {
       res.sendStatus(400);
