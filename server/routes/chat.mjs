@@ -1,4 +1,5 @@
 import express from "express";
+import escape from "escape-html";
 import { readFileSync, writeFileSync } from "fs";
 import lodash from "lodash";
 
@@ -55,7 +56,7 @@ export async function chat() {
 
     console.log(chatLines);
 
-    res.send(chatLines.join(""));
+    res.send(chatLines.map(escape).join(""));
   });
 
   routes.get("/send", (req, res) => {
@@ -75,7 +76,7 @@ export async function chat() {
 
     updateChat((k) => {
       k[c] ??= [];
-      k[c].push(`${id}:${msg}`);
+      k[c].push(`${id}:${escape(msg)}`);
       return k;
     });
 
