@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "8faeab15-3cf0-4a57-bb38-c1058df15305")
 	(paper "A4")
 	(lib_symbols
@@ -103,24 +103,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 3.81 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at -5.08 1.27 0)
 					(length 2.54)
 					(name "3"
@@ -131,24 +113,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 1.27 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -175,24 +139,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 -1.27 180)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at -5.08 -3.81 0)
 					(length 2.54)
 					(name "7"
@@ -203,6 +149,60 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 3.81 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 1.27 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -1.27 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -229,6 +229,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "easyeda2kicad:YZ29115060P-02"
 			(exclude_from_sim no)
@@ -328,7 +329,18 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Converts ESP01 to pad format used by board"
+		(exclude_from_sim no)
+		(at 118.11 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "431ca304-ae44-4e8e-b249-fd9395876f46")
 	)
 	(no_connect
 		(at 114.3 101.6)
@@ -437,16 +449,6 @@
 			(type default)
 		)
 		(uuid "ba66830c-6c46-4646-88fd-0085b57068bc")
-	)
-	(text "Converts ESP01 to pad format used by board"
-		(exclude_from_sim no)
-		(at 118.11 88.138 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "431ca304-ae44-4e8e-b249-fd9395876f46")
 	)
 	(symbol
 		(lib_id "easyeda2kicad:YZ29115060P-02")
@@ -1005,4 +1007,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
