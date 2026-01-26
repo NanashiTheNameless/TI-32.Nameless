@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "axios": "^1.13.2",
+    "axios": "^1.13.3",
     "body-parser": "^2.2.2",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
